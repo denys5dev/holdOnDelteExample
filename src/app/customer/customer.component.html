@@ -1,0 +1,12 @@
+<div class="item">
+  <div class="form" [ngStyle]="{'background-color': data.value}">
+    COLOR {{ data.color }}
+
+    VALUE {{ data.value }}
+  </div>
+
+  <button class="btn btn-danger" holdable (holdTime)="deleteData($event, data)">DELETE</button>
+
+  <progress max="100" [value]="progress" class="progress-bar">
+  </progress>
+</div>

@@ -1,0 +1,7 @@
+.item {
+  display: block;
+  widows: 300px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid pink;
+}
